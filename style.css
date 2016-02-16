@@ -1,0 +1,116 @@
+@import url('http://fonts.googleapis.com/css?family=Roboto');
+
+html {
+  	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #000;
+    font-size: .9em;
+    line-height: 1.2;
+}
+
+h1 {
+	font-family: "Roboto";
+	font-size: 60px;
+	line-height: 1.1;
+	color: #306692;
+	text-align: center;
+}
+
+#container {
+  	position: relative;
+  	margin: 0 auto;
+  	padding: 10px;
+  	top: 0;
+  	right: 0;
+  	bottom: 0;
+  	left: 0;
+	width: 600px;
+	height: 150px;
+  	border: 3px solid #272b28;
+  	/*background-color: #fae244;*/
+  	transition:
+  	width 1s linear,
+    height 1s ease 1s,
+    background-color 0.5s,
+    transform 2s,
+    left 1s,
+    top 1s,
+    transform 1s;
+}
+
+#container.scale {
+  transform: scale(1.1, 1.1);
+}
+
+#container.rectangle {
+	left: 300px;
+  	top: 200px;
+  	width: 600px;
+  	height: 150px;
+  	background-color: #e071e8;
+  	transform: rotate(90deg);
+}
+
+
+/*palette by http://www.colourlovers.com/palette/1930/cheer_up_emo_kid*/
+
+#squareOne {
+	position: relative;
+	display: inline-block;
+	margin: 0 auto;
+	width: 100px;
+	height: 100px;
+	background-color: #556270;
+}
+
+#squareTwo {
+	position: relative;
+	display: inline-block;
+	margin: 0 auto;
+	width: 100px;
+	height: 100px;
+	background-color: #C7F464;
+}
+
+#squareThree {
+	position: relative;
+	display: inline-block;
+	margin: 0 auto;
+	width: 100px;
+	height: 100px;
+	background-color: #4ECDC4;
+}
+
+#squareFour {
+	position: relative;
+	display: inline-block;
+	margin: 0 auto;
+	width: 100px;
+	height: 100px;
+	background-color: #FF6B6B;
+}
+
+#squareFive {
+	position: relative;
+	display: inline-block;
+	margin: 0 auto;
+	width: 100px;
+	height: 100px;
+	background-color: #C44D58;
+}
+
+#fading {
+    width: 100px;
+    height: 100px;
+    background: #F18C16;
+}
+
+#external {
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    background: #9376c1;
+}
+
+h2 {
+	position: relative;
+}
